@@ -2,24 +2,26 @@ import java.util.Scanner;
 
 /*
 ISYS 320
-Name(s):
-Date: 
+Name(s):Barbara Nash
+Date: 4/8/18
 */
 
-/*  What was the error?
+/*  eliminated word scanner
  
   
  */
 
 public class P1_FavoriteColor {
 
+	private static Scanner console;
+
 	public static void main(String[] args) {
-		Scanner console = new Scanner(System.in);
+		console = new Scanner(System.in);
 		
 		System.out.print("What is your favorite color? ");
 		String name = console.next();
 		
-		if( name == "blue") {
+		if(name == "blue") {
 			System.out.println("Mine too!");
 		}
 
