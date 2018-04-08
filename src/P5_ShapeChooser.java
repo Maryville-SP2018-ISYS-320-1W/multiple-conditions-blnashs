@@ -1,13 +1,13 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Nash
+	Date: 4/8/18
 */
 
 public class P5_ShapeChooser {
 
 	public static void main(String[] args) {
-
+		System.out.println("Please choose tri to print a triangle or box to print a box");
 
 	}
 	
